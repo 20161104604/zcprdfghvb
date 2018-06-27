@@ -6,21 +6,30 @@
 //  Copyright © 2018年 20161104604. All rights reserved.
 //
 
-＃include <iostream>
-
-struct caipan
+#include <iostream>
+using namespace std;
+int main()
 {
-    int mun;
-    double score;
-}cai[7]={{1,1},{2,2},{3,3},{4,4}{5,5},{6,6},{7,7}};
-
-void sort(caipan cai[],int n);
-
-const int N=7;
-
-void mian()
-{
-    cout<<"请输入裁判员的分数\n";
-    cout<<endl;
-    cin>>ping[0].score>>ping[1].score>>
+    int i;
+    int j;
+    int temp;
+    int a[5];
+    float ave=0;
+    cout<<" 请输入5个评委的打分:\n";
+    for(i=0;i<5;i++)
+        for(j=i+1;j<5;j++)
+        {
+            if(a[i]>a[j])
+            {
+                temp=a[i];
+                a[i]=a[j];
+                a[j]=temp;
+            }
+        }
+    for(i=1;i<4;i++)
+        ave+=a[i];
+    ave=ave/3;
+    cout<<ave<<endl;
+    return 0;
+    
 }
