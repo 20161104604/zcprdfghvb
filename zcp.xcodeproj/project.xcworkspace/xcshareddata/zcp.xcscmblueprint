@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "2B0682D6D1C4D0904CCB824AD76104ECDBE6EDAE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "2B0682D6D1C4D0904CCB824AD76104ECDBE6EDAE" : 9223372036854775807,
+    "EC23F3EFAFB01A3243741B3A6963EB57357ED22D" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "7C89BF9D-A736-490D-AC94-2FABE76ABCC4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "2B0682D6D1C4D0904CCB824AD76104ECDBE6EDAE" : "zcp\/",
+    "EC23F3EFAFB01A3243741B3A6963EB57357ED22D" : "zcp\/zcp\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "zcp",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "zcp.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/20161104604\/zcprdfghvb.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2B0682D6D1C4D0904CCB824AD76104ECDBE6EDAE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/20161104604\/zcp.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EC23F3EFAFB01A3243741B3A6963EB57357ED22D"
+    }
+  ]
+}
