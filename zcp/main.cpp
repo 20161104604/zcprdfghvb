@@ -37,11 +37,6 @@ void main()
     pingwei temp;
     for(int i=0;i<N-1;i++)
         for(int j=0;j<N-1;j++)
-            if(ping[j].score>ping[j+1].score)
-            {
-                temp=ping[j];
-                ping[j]=ping[j+1];
-                ping[j+1]=temp;
-            }
+           
 }
 
