@@ -22,6 +22,26 @@ void main()
     cin>>ping[0].score>>ping[1].score>>ping[2],score>>ping[3].score>>ping[4].score;
     sort(ping,N);
     cout<<endl;
-    c
+    cout<<endl;
+    cout<<endl;
+    cout<<"最高分"<<ping[4].num<<"\t"<<"\t"<<ping[4].score<<endl;
+    cout<<"最低分"<<ping[0].num<<"\t"<<"\t"<<ping[0].score<<endl;
+    double jun,sum;
+    jun=(ping[1].score+ping[2].score+ping[3].score)/3;
+    sum=jun*5;
+    cout<<endl;
+    cout<<"选手得分":"<<""\t"<<sum<<endl;
+}
+  void sort(pingwei ping[],int n)
+{
+    pingwei temp;
+    for(int i=0;i<N-1;i++)
+        for(int j=0;j<N-1;j++)
+            if(ping[j].score>ping[j+1].score)
+            {
+                temp=ping[j];
+                ping[j]=ping[j+1];
+                ping[j+1]=temp;
+            }
 }
 
