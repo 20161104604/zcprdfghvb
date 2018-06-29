@@ -246,6 +246,7 @@
 				EDD042FD20E08F3500149B65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
